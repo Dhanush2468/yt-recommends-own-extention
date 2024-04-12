@@ -139,7 +139,7 @@ function Title() {
 
     title.innerHTML = `
     <img class="title-roc"
-    src="https://png.pngtree.com/png-vector/20220521/ourmid/pngtree-recommended-icon-advice-badge-banner-png-image_4683991.png"
+    src="https://raw.githubusercontent.com/Dhanush2468/yt-recommends-own-extention/main/title.png"
     alt="thumb"
 />
     `;
