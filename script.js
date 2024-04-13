@@ -83,6 +83,23 @@ const videos = [
     }
 ]
 
+
+
+const titles = document.getElementById('contents');
+
+function Title() {
+    const title = document.createElement('h1');
+    title.classList.add('title');
+
+    title.innerHTML = `
+    <img class="title-roc"
+    src="https://raw.githubusercontent.com/Dhanush2468/yt-recommends-own-extention/main/title.png"
+    alt="thumb"
+/>
+    `;
+    titles.prepend(title);
+}
+Title()
 // Get reference to contents container
 const contents = document.getElementById('contents');
 
@@ -131,18 +148,10 @@ function getRandomVideo() {
 createCard(getRandomVideo());
 createCard(getRandomVideo());
 
-const titles = document.getElementById('contents');
 
-function Title() {
-    const title = document.createElement('h1');
-    title.classList.add('title');
 
-    title.innerHTML = `
-    <img class="title-roc"
-    src="https://raw.githubusercontent.com/Dhanush2468/yt-recommends-own-extention/main/title.png"
-    alt="thumb"
-/>
-    `;
-    titles.prepend(title);
-}
-Title()
+
+
+
+
+
